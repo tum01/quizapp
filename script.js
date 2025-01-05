@@ -42,6 +42,7 @@ function showQuiz()
 }
 function showQuestion(){
     resetState();
+    nextBtn.innerHTML = "Next";
     let currentVal = questions[currentQuestion];
     let quesNo = currentQuestion + 1;
     queValue.innerHTML = quesNo + ". " + currentVal.ques;
